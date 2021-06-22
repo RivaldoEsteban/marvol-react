@@ -1,11 +1,12 @@
 import React from "react";
 
-function Comics({ comics }) {
+function Comics({ comics, setComic }) {
   return comics.map((comic) => {
-    console.log(comic.title);
+    function handleComic() {
+      setComic(comic);
+    }
     return (
-      <div className="comic">
-        <h2 className="comic-title">{comic.title}</h2>
+      <div className="comic" onClick={handleComic}>
         <img
           src={
             comic.thumbnail.path +
@@ -15,6 +16,7 @@ function Comics({ comics }) {
           alt="comic image"
           className="comic-image"
         />
+        <h2 className="comic-title">{comic.title}</h2>
       </div>
     );
   });

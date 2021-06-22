@@ -5,15 +5,16 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .comic {
   width: 300px;
+  cursor: pointer;
 }
 
 .comic-title {
-  height: 100px;
+  font: 700 normal 14px/24px var(--fontFamily);
 }
 
 .section-title {

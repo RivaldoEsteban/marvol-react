@@ -1,0 +1,48 @@
+.footer-container {
+  background: #202020;
+  padding: 3rem 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.social-media {
+  color: white;
+}
+
+.social-media p {
+  font: 700 normal 14px/24px var(--fontFamily);
+  margin: 0 0 1rem 0;
+}
+
+.social-media-icons {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-navigation {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-nav {
+  display: flex;
+  gap: 68px;
+}

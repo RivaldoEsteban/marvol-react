@@ -1,0 +1,37 @@
+.section-credicCard {
+  display: flex;
+  margin-top: 50px;
+}
+
+.credic-card-container {
+  padding: 20px;
+  width: 50%;
+  background: linear-gradient(to bottom, rgb(214, 11, 11), rgb(121, 4, 4));
+}
+
+.credicCard-information {
+  text-align: center;
+  width: 50%;
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.credicCard-information p {
+  font: 700 normal 16px/24px var(--fontFamily);
+  text-transform: uppercase;
+}
+.credicCard-information h3 {
+  font: 700 normal 26px/24px var(--fontFamily);
+}
+.credicCard-information button {
+  text-transform: uppercase;
+  background: #e42831;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font: 700 normal 14px/24px var(--fontFamily);
+}
