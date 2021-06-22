@@ -5,7 +5,12 @@ function CredicCardMarvel() {
   return (
     <section className="section-credicCard">
       <div className="credic-card-container">
-        <img src="images/credicCard.png" alt="credic card image" />
+        <img
+          src="images/credicCard.png"
+          alt="credic card image"
+          width="550px"
+          height="340"
+        />
       </div>
       <div className="credicCard-information">
         <p>marvel mastercard</p>

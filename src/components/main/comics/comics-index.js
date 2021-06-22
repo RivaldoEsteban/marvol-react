@@ -6,7 +6,7 @@ function Comics({ comics, setComic }) {
       setComic(comic);
     }
     return (
-      <div className="comic" onClick={handleComic}>
+      <div className="comic" id={comic.id} key={comic.id} onClick={handleComic}>
         <img
           src={
             comic.thumbnail.path +
@@ -15,6 +15,8 @@ function Comics({ comics, setComic }) {
           }
           alt="comic image"
           className="comic-image"
+          width="300"
+          height="450"
         />
         <h2 className="comic-title">{comic.title}</h2>
       </div>

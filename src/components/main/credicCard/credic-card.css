@@ -4,9 +4,16 @@
 }
 
 .credic-card-container {
-  padding: 20px;
+  padding: 20px 0;
   width: 50%;
   background: linear-gradient(to bottom, rgb(214, 11, 11), rgb(121, 4, 4));
+}
+
+.credic-card-container img {
+  display: block;
+  margin: auto;
+  border-radius: 30px;
+  max-width: 100%;
 }
 
 .credicCard-information {
@@ -34,4 +41,5 @@
   border: none;
   padding: 1rem 2rem;
   font: 700 normal 14px/24px var(--fontFamily);
+  cursor: pointer;
 }

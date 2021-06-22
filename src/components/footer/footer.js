@@ -13,29 +13,45 @@ function Footer() {
             <nav className="footer-navigation">
               <ul>
                 <li>
-                  <a href="#sobre-marvel">sobre marvel</a>
+                  <a rel=" noreferrer" href="#sobre-marvel">
+                    sobre marvel
+                  </a>
                 </li>
                 <li>
-                  <a href="#help">ayuda / preguntas frecuentes</a>
+                  <a rel=" noreferrer" href="#help">
+                    ayuda / preguntas frecuentes
+                  </a>
                 </li>
                 <li>
-                  <a href="#careers">carreras</a>
+                  <a rel=" noreferrer" href="#careers">
+                    carreras
+                  </a>
                 </li>
                 <li>
-                  <a href="#internships">pasantías</a>
+                  <a rel=" noreferrer" href="#internships">
+                    pasantías
+                  </a>
                 </li>
               </ul>
               <ul>
                 <li>
-                  <a href="#advertising">publicidad</a>
+                  <a rel=" noreferrer" href="#advertising">
+                    publicidad
+                  </a>
                 </li>
                 <li>
-                  <a href="https://www.marvel.com/" target="_blank">
+                  <a
+                    rel=" noreferrer"
+                    href="https://www.marvel.com/"
+                    target="_blank"
+                  >
                     marvelhq.com
                   </a>
                 </li>
                 <li>
-                  <a href="#exchange">canjear cómics digitales</a>
+                  <a rel=" noreferrer" href="#exchange">
+                    canjear cómics digitales
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -43,16 +59,16 @@ function Footer() {
           <div className="social-media">
             <p>sigue a marvel</p>
             <div className="social-media-icons">
-              <a href="" target="_blank">
+              <a rel=" noreferrer" href="#" target="_blank">
                 <img src="images/icons/facebook.png" alt="icon facebook" />
               </a>
-              <a href="" target="_blank">
+              <a rel=" noreferrer" href="#" target="_blank">
                 <img src="images/icons/twitter.png" alt="icon twitter" />
               </a>
-              <a href="" target="_blank">
+              <a rel=" noreferrer" href="#" target="_blank">
                 <img src="images/icons/instagram.png" alt="icon instagram" />
               </a>
-              <a href="" target="_blank">
+              <a rel=" noreferrer" href="#" target="_blank">
                 <img src="images/icons/youtube.png" alt="icon youtube" />
               </a>
             </div>
