@@ -1,0 +1,32 @@
+.hero-container {
+  background-size: cover;
+  background-image: url("../../hero.png");
+  height: 568px;
+  width: 100%;
+}
+
+.hero-txt {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.hero-txt p {
+  font: 700 normal 16px/24px var(--fontFamily);
+  margin: 0;
+}
+.hero-txt h1 {
+  font: 700 normal 40px/46px var(--fontFamily);
+  margin: 1.5rem 0;
+}
+.hero-txt button {
+  padding: 1rem 2rem;
+  background: none;
+  color: white;
+  text-transform: uppercase;
+  border: 2px solid gray;
+  cursor: pointer;
+}

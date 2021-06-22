@@ -1,0 +1,55 @@
+.header-container {
+  background: #202020;
+}
+
+.header-logo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.header-register-btn {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background: none;
+  border: 1px solid gray;
+  border-bottom: 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: white;
+}
+
+.header-register-btn a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* navigation */
+.header-navigation {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.header-navigation nav ul {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  margin: 0.5rem 0;
+}
+
+.header-navigation nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font: 700 normal 12px/24px var(--fontFamily);
+}
