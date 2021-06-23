@@ -8,7 +8,7 @@ function CredicCardMarvel() {
         <img
           src="images/credicCard.png"
           alt="credic card image"
-          width="550px"
+          width="486"
           height="340"
         />
       </div>

@@ -1,0 +1,63 @@
+.comic-info {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  border: 1px solid red;
+}
+
+.comic {
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
+}
+
+/* .comic-btn-back {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5rem;
+  background: none;
+  border: 1px solid rgb(62, 62, 230);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+} */
+
+.comic-btn-back:hover {
+  background: rgb(127, 127, 238);
+  color: white;
+  background: url;
+}
+
+.creator-data {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.creator-data h3 {
+  text-transform: capitalize;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.role {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.comic-path {
+  margin: auto;
+  width: 50%;
+}
+
+.comic-background {
+  background: red;
+  padding: 50px 0;
+  background-image: url("../../../marvel.png");
+  background-size: cover;
+  opacity: 0.8;
+}

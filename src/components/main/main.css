@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  /* justify-content: center; */
+  margin: 50px 0;
 }
 
 .comic {
@@ -20,4 +20,24 @@
 .section-title {
   font: 700 normal 26px/24px var(--fontFamily);
   margin: 40px 0 24px;
+}
+
+/* volver */
+
+.back-to-main {
+  background: #202020;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+
+.back-to-main button {
+  background: none;
+  display: flex;
+  gap: 0.5rem;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font: 700 normal 14px/24px var(--fontFamily);
+  text-transform: uppercase;
 }
