@@ -1,0 +1,99 @@
+.comic-info {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+}
+
+.comic-container {
+  position: relative;
+}
+
+.comic-btn-back:hover {
+  background: rgb(127, 127, 238);
+  color: white;
+}
+
+.creator-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+.creator-data {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 300px;
+  padding: 15px;
+  justify-content: center;
+  background: white;
+  border-radius: 10px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.creator p {
+  margin: 0;
+}
+
+.creator h3 {
+  margin: 0;
+}
+
+.comic-path {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comic-container {
+  padding: 50px 0;
+  background-image: url("../../../../prueba.png");
+  background-size: cover;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.comic-description h1 {
+  font: 700 normal 40px/3rem var(--fontFamily);
+  margin: 2rem 0;
+  color: white;
+  text-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+  /* color: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgb(95, 95, 95),
+    rgb(252, 226, 226)
+  );
+  background-clip: text;
+  -webkit-background-clip: text; */
+}
+.comic-description h3 {
+  text-transform: capitalize;
+  font: 700 normal 20px/24px var(--fontFamily);
+}
+
+.comic-description p {
+  font: 700 normal 18px/24px var(--fontFamily);
+  /* color: transparent; */
+  /* background-image: linear-gradient(
+    to right,
+    rgb(95, 95, 95),
+    rgb(252, 226, 226)
+  );
+  background-clip: text;
+  -webkit-background-clip: text; */
+}
+
+.comic-list {
+  margin: auto;
+}
