@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/marvol-react/static/css/main.45881e8e.chunk.css",
-    "main.js": "/marvol-react/static/js/main.450f3924.chunk.js",
-    "main.js.map": "/marvol-react/static/js/main.450f3924.chunk.js.map",
-    "runtime-main.js": "/marvol-react/static/js/runtime-main.9162750c.js",
-    "runtime-main.js.map": "/marvol-react/static/js/runtime-main.9162750c.js.map",
+    "main.css": "/marvol-react/static/css/main.59075c23.chunk.css",
+    "main.js": "/marvol-react/static/js/main.9a723fc2.chunk.js",
+    "main.js.map": "/marvol-react/static/js/main.9a723fc2.chunk.js.map",
+    "runtime-main.js": "/marvol-react/static/js/runtime-main.313723b0.js",
+    "runtime-main.js.map": "/marvol-react/static/js/runtime-main.313723b0.js.map",
     "static/js/2.fc419d1b.chunk.js": "/marvol-react/static/js/2.fc419d1b.chunk.js",
     "static/js/2.fc419d1b.chunk.js.map": "/marvol-react/static/js/2.fc419d1b.chunk.js.map",
-    "static/js/3.e53a14f1.chunk.js": "/marvol-react/static/js/3.e53a14f1.chunk.js",
-    "static/js/3.e53a14f1.chunk.js.map": "/marvol-react/static/js/3.e53a14f1.chunk.js.map",
+    "static/js/3.8ea56ced.chunk.js": "/marvol-react/static/js/3.8ea56ced.chunk.js",
+    "static/js/3.8ea56ced.chunk.js.map": "/marvol-react/static/js/3.8ea56ced.chunk.js.map",
     "index.html": "/marvol-react/index.html",
-    "static/css/main.45881e8e.chunk.css.map": "/marvol-react/static/css/main.45881e8e.chunk.css.map",
+    "static/css/main.59075c23.chunk.css.map": "/marvol-react/static/css/main.59075c23.chunk.css.map",
     "static/js/2.fc419d1b.chunk.js.LICENSE.txt": "/marvol-react/static/js/2.fc419d1b.chunk.js.LICENSE.txt",
     "static/media/hero.css": "/marvol-react/static/media/hero.967bfa1e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9162750c.js",
+    "static/js/runtime-main.313723b0.js",
     "static/js/2.fc419d1b.chunk.js",
-    "static/css/main.45881e8e.chunk.css",
-    "static/js/main.450f3924.chunk.js"
+    "static/css/main.59075c23.chunk.css",
+    "static/js/main.9a723fc2.chunk.js"
   ]
 }
