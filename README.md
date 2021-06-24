@@ -1,3 +1,17 @@
+# Spotifu 
+
+## Realizando los proyectos de la página https://leonidasesteban.com/proyectos
+
+### Este proyecto recreo una de las secciones de Marvel.com usando su API. Fue creado en React y se uso hooks como : useState y useEffect. Aplicamos el uso de react-router-dom para el enrutamiento.
+
+
+<img src="public/gif/marol-gif.gif" alt="gif para el readme">
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
