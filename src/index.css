@@ -5,6 +5,8 @@
 body {
   margin: 0;
   font-family: var(--fontFamily);
+  min-block-size: 37.5rem;
+  min-inline-size: 48rem;
 }
 
 button {
@@ -21,4 +23,31 @@ button:active {
   margin: auto;
   padding: 0 83px;
   height: inherit;
+}
+
+@media (max-width: 1000px) {
+  .credic-card-container img {
+    max-height: 300px !important;
+    max-width: 400px !important;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .footer-content {
+    display: block !important;
+  }
+  .credicCard-information {
+    padding: 0 20px;
+  }
+  .credicCard-information h3 {
+    font-size: 20px !important;
+  }
+}
+@media (max-width: 850px) {
+  .credic-card-container img {
+    max-height: 250px !important;
+    max-width: 320px !important;
+  }
 }
