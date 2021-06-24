@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/marvol-react/static/css/main.7a01f212.chunk.css",
-    "main.js": "/marvol-react/static/js/main.a37e5ec0.chunk.js",
-    "main.js.map": "/marvol-react/static/js/main.a37e5ec0.chunk.js.map",
+    "main.js": "/marvol-react/static/js/main.aa39bdf3.chunk.js",
+    "main.js.map": "/marvol-react/static/js/main.aa39bdf3.chunk.js.map",
     "runtime-main.js": "/marvol-react/static/js/runtime-main.f36407be.js",
     "runtime-main.js.map": "/marvol-react/static/js/runtime-main.f36407be.js.map",
     "static/js/2.fa421c4e.chunk.js": "/marvol-react/static/js/2.fa421c4e.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.f36407be.js",
     "static/js/2.fa421c4e.chunk.js",
     "static/css/main.7a01f212.chunk.css",
-    "static/js/main.a37e5ec0.chunk.js"
+    "static/js/main.aa39bdf3.chunk.js"
   ]
 }
