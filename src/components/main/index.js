@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./main.css";
-import getComics from "./comicsSection/comics/getComics";
+import getComics from "./comicsSection/comicList/comics/getComics";
 import CredicCardMarvel from "./credicCard/credicCard";
 
 import ComicsSection from "./comicsSection/comicList";

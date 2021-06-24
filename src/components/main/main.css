@@ -13,6 +13,11 @@
   cursor: pointer;
 }
 
+.comics-list a {
+  text-decoration: none;
+  color: black;
+}
+
 .comic-title {
   font: 700 normal 14px/24px var(--fontFamily);
 }

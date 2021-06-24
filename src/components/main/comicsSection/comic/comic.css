@@ -4,10 +4,6 @@
   gap: 3rem;
 }
 
-.comic-container {
-  position: relative;
-}
-
 .comic-btn-back:hover {
   background: rgb(127, 127, 238);
   color: white;
@@ -56,18 +52,45 @@
 }
 
 .comic-container {
-  padding: 50px 0;
-  background-image: url("../../../../prueba.png");
-  background-size: cover;
-  opacity: 0.9;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  /* background-image: url("../../../../prueba.png"); */
+  /* background-size: cover; */
+}
+
+.comic-content {
   text-align: center;
+  padding: 50px 0;
+}
+
+.comic-header {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  height: 42px;
+}
+
+.comic-header button {
+  border: 1px solid gray;
+  background: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 5px 10px;
+  height: inherit;
+  font: 700 normal 14px/24px var(--fontFamily);
+  cursor: pointer;
+}
+
+.comic-header button img {
+  width: 30px;
 }
 
 .comic-description h1 {
   font: 700 normal 40px/3rem var(--fontFamily);
   margin: 2rem 0;
-  color: white;
-  text-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
+  color: whi;
+  text-shadow: 10px 10px 20px blue;
   /* color: transparent;
   background-image: linear-gradient(
     to right,

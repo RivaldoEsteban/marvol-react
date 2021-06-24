@@ -2,14 +2,19 @@ import React from "react";
 import "./comics-style.css";
 import ComicsList from "./comicList/comicList";
 import Comic from "./comic/comic";
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+
 function ComicsSection({ comics, setComic, comic }) {
   return (
     <section aria-label="comic list">
-      {!comic ? (
-        <ComicsList comics={comics} setComic={setComic} />
-      ) : (
-        <Comic comic={comic} />
-      )}
+      <Switch>
+        <Route path="/" exact>
+          <ComicsList comics={comics} setComic={setComic} />
+        </Route>
+        <Route path="/comic" exact>
+          <Comic comic={comic} />
+        </Route>
+      </Switch>
     </section>
   );
 }
