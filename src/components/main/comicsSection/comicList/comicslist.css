@@ -1,4 +1,5 @@
 .comicList-content {
+  margin: 50px 0;
 }
 
 .comics-list {
@@ -9,7 +10,7 @@
 }
 
 .title-section-comicList {
-  margin: 2rem 0;
+  margin: 0rem 0 2rem;
   font: 700 normal 30px/24px var(--fontFamily);
   text-transform: uppercase;
 }
