@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/marvol-react/static/css/main.7a01f212.chunk.css",
+    "main.css": "/marvol-react/static/css/main.2f0a4bb0.chunk.css",
     "main.js": "/marvol-react/static/js/main.aa39bdf3.chunk.js",
     "main.js.map": "/marvol-react/static/js/main.aa39bdf3.chunk.js.map",
     "runtime-main.js": "/marvol-react/static/js/runtime-main.f36407be.js",
@@ -10,14 +10,14 @@
     "static/js/3.960f0e00.chunk.js": "/marvol-react/static/js/3.960f0e00.chunk.js",
     "static/js/3.960f0e00.chunk.js.map": "/marvol-react/static/js/3.960f0e00.chunk.js.map",
     "index.html": "/marvol-react/index.html",
-    "static/css/main.7a01f212.chunk.css.map": "/marvol-react/static/css/main.7a01f212.chunk.css.map",
+    "static/css/main.2f0a4bb0.chunk.css.map": "/marvol-react/static/css/main.2f0a4bb0.chunk.css.map",
     "static/js/2.fa421c4e.chunk.js.LICENSE.txt": "/marvol-react/static/js/2.fa421c4e.chunk.js.LICENSE.txt",
     "static/media/hero.css": "/marvol-react/static/media/hero.967bfa1e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f36407be.js",
     "static/js/2.fa421c4e.chunk.js",
-    "static/css/main.7a01f212.chunk.css",
+    "static/css/main.2f0a4bb0.chunk.css",
     "static/js/main.aa39bdf3.chunk.js"
   ]
 }
