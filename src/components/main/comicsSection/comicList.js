@@ -8,10 +8,10 @@ function ComicsSection({ comics, setComic, comic }) {
   return (
     <section aria-label="comic list">
       <Switch>
-        <Route path="/" exact>
+        <Route path="/marvol-react/" exact>
           <ComicsList comics={comics} setComic={setComic} />
         </Route>
-        <Route path="/comic" exact>
+        <Route path="/marvol-react/comic" exact>
           <Comic comic={comic} />
         </Route>
       </Switch>

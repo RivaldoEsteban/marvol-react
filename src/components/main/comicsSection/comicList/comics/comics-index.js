@@ -6,7 +6,7 @@ function Comics({ comics, setComic }) {
       setComic(comic);
     }
     return (
-      <Link to="/comic">
+      <Link to="/marvol-react/comic">
         <div
           className="comic"
           id={comic.id}

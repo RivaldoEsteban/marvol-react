@@ -12,7 +12,7 @@ function Comic({ comic }) {
     <div className="comic-container">
       <div className="comic-header">
         <div className="wrapper">
-          <Link to="/">
+          <Link to="/marvol-react/">
             <button>
               <img src="images/icons/arrow-left.png" alt="" />
               Home
