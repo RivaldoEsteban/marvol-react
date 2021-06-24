@@ -38,9 +38,6 @@ button:active {
   .footer-content {
     display: block !important;
   }
-  .credicCard-information {
-    padding: 0 20px;
-  }
   .credicCard-information h3 {
     font-size: 20px !important;
   }
